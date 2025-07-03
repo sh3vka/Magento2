@@ -1,0 +1,56 @@
+.page-title-wrapper #page-title-heading {
+    text-align: center;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: row-reverse;
+    order: 1; /* змінює порядок блоків */
+}
+
+.cart-summary {
+    order: 2; /* переносить summary ліворуч */
+    margin-right: 30px;
+}
+
+.action.primary.checkout {
+    width: 100%;
+    min-height: 60px;
+}
+
+.footer.content {
+    position:relative;
+}
+
+.custom-footer-columns {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .custom-footer-contacts {
+        flex: 1;
+        text-align: center;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            color: #777;
+            li {
+                margin-bottom: 5px;
+                font-size: 14px;
+            }
+        }
+
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
+    
+

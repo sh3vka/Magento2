@@ -14,5 +14,12 @@
                 <argument name="logo_alt" xsi:type="string" translate="true">Logo</argument>
             </arguments>
         </referenceBlock>
+        <referenceContainer name="footer">
+            <container name="custom.footer.columns" htmlTag="div" htmlClass="custom-footer-columns" after="footer_links">
+                <block class="Magento\Framework\View\Element\Template"
+                       name="custom.footer.contacts"
+                       template="Magento_Theme::html/footer-contacts.phtml" />
+            </container>
+        </referenceContainer>
     </body>
 </page>
